@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb"],
+  "plugins": ["import", "react"],
+  "rules": {
+    "jsx-a11y/img-has-alt": 0
+  },
+  "env": {
+    "jasmine" : true,
+    "jest": true
+  }
+}
